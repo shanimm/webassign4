@@ -1,0 +1,65 @@
+{ "courses": [
+  {"id": 1, "courseName": "Maths"},
+  {"id": 2, "courseName": "English"},
+  {"id": 3, "courseName": "General"}
+
+
+
+],
+  "sections": [
+    "probability",
+    "numbers",
+    "grammar",
+    "literature",
+    "History",
+    "Current"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "What is the probability of heads on a single coin toss?",
+      "answers": [
+        {"id": 1,
+          "answerText": "0.5",
+          "correct": true},
+        {"id": 2,
+          "answerText": "1",
+          "correct": false},
+        {"id": 3,
+          "answerText": "0.33",
+          "correct": false},
+        {"id": 4,
+          "answerText": "0.25",
+          "correct": false}
+      ],
+      "ordered": false,
+      "sections": ["probability"],
+      "courses": [
+        {"id": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "questionText": "Who wrote Oliver Twist?",
+      "answers": [
+        {"id": 1,
+          "answerText": "Charles Dickens",
+          "correct": true},
+        {"id": 2,
+          "answerText": "Steve Rooney",
+          "correct": false},
+        {"id": 3,
+          "answerText": "Charles Jason",
+          "correct": false},
+        {"id": 4,
+          "answerText": "Steve Ballmer",
+          "correct": false}
+      ],
+      "ordered": false,
+      "sections": ["literature"],
+      "courses": [
+        {"id": 2}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<div class="container-fluid" xmlns="http://www.w3.org/1999/html">
+  <form class="form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <a [routerLink]="['']"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
+    <a [routerLink]="['signup']"><button class=" btn btn-lg btn-danger btn-block" type="submit">Signup</button></a>
+  </form>
+</div>
